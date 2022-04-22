@@ -1,4 +1,5 @@
 #### Image show
+```
 import numpy as np
 from PIL import Image
 
@@ -7,15 +8,18 @@ np_array = np.array(image)
 
 pil_image=Image.fromarray(np_array)
 pil_image.show()
+```
 
 <img src="https://github.com/Hyeseong0317/Visualizationtool/blob/main/images/lena.PNG" width="20%">
 
+```
 import numpy as np 
 from PIL import Image 
 
 array = np.random.randint(255, size=(400, 400),dtype=np.uint8)
 image = Image.fromarray(array)
 image.show() 
+```
 
 <img src="https://github.com/Hyeseong0317/Visualizationtool/blob/main/images/noise.PNG" width="20%">
 
