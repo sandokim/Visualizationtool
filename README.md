@@ -23,7 +23,7 @@ image.show()
 
 <img src="https://github.com/Hyeseong0317/Visualizationtool/blob/main/images/noise.PNG" width="20%">
 
-#### Image L mode, P mode
+#### Image L mode, P mode, RGB mode
 
 L mode -> gray scale image
 
