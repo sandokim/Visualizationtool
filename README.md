@@ -25,6 +25,8 @@ image.show()
 
 #### Image L mode, P mode, RGB mode
 
+[PIL image mode](https://pillow.readthedocs.io/en/stable/handbook/concepts.html#concept-modes)
+
 L mode -> gray scale image
 
 P mode -> If you have a P mode image, that means it is palettised. That means there is a palette with up to 256 different colours in it, and instead of storing 3 bytes for R, G and B for each pixel, you store 1 byte which is the index into the palette.
